@@ -1,8 +1,5 @@
 package com.aluraSpring.screenmatchSeries.service;
 
-import com.theokanning.openai.completion.CompletionRequest;
-import com.theokanning.openai.service.OpenAiService;
-
 public class ConsultaChatGPT {
 
     public void ejemploChatGpt(){

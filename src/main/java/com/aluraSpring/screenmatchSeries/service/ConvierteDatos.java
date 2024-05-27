@@ -1,7 +1,7 @@
 package com.aluraSpring.screenmatchSeries.service;
 
 
-import com.aluraSpring.screenmatchSeries.model.DatosSerie;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

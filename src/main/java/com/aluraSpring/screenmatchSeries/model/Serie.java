@@ -1,7 +1,6 @@
 package com.aluraSpring.screenmatchSeries.model;
 
-import com.aluraSpring.screenmatchSeries.service.ConsultaChatGPT;
-import com.fasterxml.jackson.annotation.JsonAlias;
+
 import jakarta.persistence.*;
 
 import java.util.List;
