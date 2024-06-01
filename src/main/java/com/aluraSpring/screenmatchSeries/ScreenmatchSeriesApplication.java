@@ -8,25 +8,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ScreenmatchSeriesApplication implements CommandLineRunner {
-
-/* Aqui utilizamos las inyecciones de dependecias con
-* constructores, importando la clase SerieRepository y pasandola
-* como parametro en la clase Principal para que pueda utilizar
-* sus respectivos metodos
-* */
+public class ScreenmatchSeriesApplication {
 
 	@Autowired
 	private SerieRepository repository;
 	public static void main(String[] args) {
 		SpringApplication.run(ScreenmatchSeriesApplication.class, args);
 	}
-
-	@Override
-	public void run(String... args) throws Exception {
-
-		Principal principal = new Principal(repository);
-		principal.muestraElMenu();
-
-	}
 }
+

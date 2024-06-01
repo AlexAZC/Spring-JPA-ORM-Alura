@@ -234,27 +234,4 @@ public class Principal {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 } // Acaba la clase Principal
